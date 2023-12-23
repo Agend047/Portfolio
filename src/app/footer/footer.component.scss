@@ -1,0 +1,30 @@
+footer {
+    height: 291px;
+
+    color: white;
+    background-color: #141D2F;
+
+    border-style: solid;
+    border-color: #00BEE8;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    .right_part {
+        img {
+            width: 30px;
+            padding: 18px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
