@@ -2,9 +2,6 @@ header {
 
     height: 100px;
 
-    color: white;
-    background-color: var(--bg-color);
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +19,6 @@ header {
             padding-left: 12px;
         }
     }
-
 }
 
 
@@ -31,9 +27,6 @@ header {
 .HeadFoot {
     padding-left: 100px;
     padding-right: 100px;
-
-    color: white;
-    background-color: var(--bg-color);
 }
 
 @media only screen and (max-width: 1000px) {

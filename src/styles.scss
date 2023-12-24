@@ -1,6 +1,7 @@
 :root {
     --bg-color: #141D2F;
     --main-color: #4B47FF;
+
     --sec-color: #00BEE8;
 }
 
@@ -8,6 +9,8 @@
 body {
     margin: 0;
     font-family: 'Poppins';
+    color: white;
+    background-color: var(--bg-color);
 }
 
 
