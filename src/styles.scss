@@ -1,7 +1,6 @@
 :root {
     --bg-color: #141D2F;
     --main-color: #4B47FF;
-
     --sec-color: #00BEE8;
 }
 
@@ -17,6 +16,10 @@ body {
 a {
     color: white;
     text-decoration: none;
+}
+
+.main_col {
+    color: var(--main-color);
 }
 
 
