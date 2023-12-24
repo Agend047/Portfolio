@@ -4,8 +4,11 @@
         <!-- <a routerLink="/imprint">Imprint</a> -->
 
 
-        <a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">NIKLAS</a> <br>
-        <a routerLink="/imprint" routerLinkActive="active" ariaCurrentWhenActive="page">Imprint</a>
+        <a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">
+            <img class="footer_logo" src="../../assets/img/Logo.png" alt="NIKLAS">
+        </a> <br>
+        <a class="wide_imprint_link" routerLink="/imprint" routerLinkActive="active"
+            ariaCurrentWhenActive="page">Imprint</a>
     </span>
 
     <p>© Niklas Schneider 2024</p>
@@ -22,5 +25,8 @@
         <img (click)="goToLink('https://www.linkedin.com/in/niklas-schneider-635789257/')"
             src="../../assets/img/Linkedin.png" target="_blank" alt="Linkedin">
     </span>
+
+    <a class="mobile_imprint_link" routerLink="/imprint" routerLinkActive="active"
+        ariaCurrentWhenActive="page">Imprint</a>
 
 </footer>

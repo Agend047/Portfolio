@@ -13,12 +13,10 @@ footer {
     align-items: center;
     justify-content: space-between;
 
-    .left_part {
-        h1 {
-            margin: 0;
-        }
+    a {
+        color: white;
+        text-decoration: none;
     }
-
 
     .right_part {
         img {
@@ -31,8 +29,36 @@ footer {
         }
     }
 
-    a {
-        color: white;
-        text-decoration: none;
+}
+
+.footer_logo {
+    width: 218px;
+    height: 40px;
+}
+
+
+
+.mobile_imprint_link {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    footer {
+        flex-direction: column;
+
+        padding-top: 60px;
+
+    }
+
+    .wide_imprint_link {
+        display: none;
+
+    }
+
+    .mobile_imprint_link {
+        display: block;
+        padding-bottom: 60px;
     }
 }
