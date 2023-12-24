@@ -1,8 +1,22 @@
+:root {
+    --bg-color: #141D2F;
+    --main-color: #4B47FF;
+    --sec-color: #00BEE8;
+}
+
 /* You can add global styles to this file, and also import other style files */
 body {
     margin: 0;
     font-family: 'Poppins';
 }
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
 /* poppins-100 - latin */
 @font-face {
