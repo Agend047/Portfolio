@@ -22,7 +22,9 @@ a {
     color: var(--main-color);
 }
 
-
+.unique_ornamentation {
+    z-index: -1;
+}
 
 /* poppins-100 - latin */
 @font-face {
