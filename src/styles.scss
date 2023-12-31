@@ -29,11 +29,29 @@ a {
 
 button {
     color: white;
+
 }
 
-.d-flex {
+.main_btn {
+    background-color: var(--main-color);
+}
+
+.sec_btn {
+    background-color: var(--sec-color);
+}
+
+.tert_btn {
+    background-color: var(--bg-color);
+    border-color: var(--sec-color);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.d_flex {
     display: flex;
 }
+
 
 
 
