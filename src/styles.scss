@@ -18,9 +18,24 @@ a {
     text-decoration: none;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 64px; //72px;
+}
+
 .main_col {
     color: var(--main-color);
 }
+
+button {
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
 
 .unique_ornamentation {
     z-index: -1;
