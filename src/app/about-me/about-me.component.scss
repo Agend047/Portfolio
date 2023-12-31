@@ -1,0 +1,32 @@
+article {
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 100px;
+
+    .left_txt {
+        max-width: 400px;
+
+
+        figure {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+    }
+
+    .right_pic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: 350px;
+            border-radius: 50px; //Should be round!
+            border-style: solid;
+            border-color: var(--sec-color);
+            border-width: 5px;
+        }
+    }
+
+}
