@@ -52,6 +52,13 @@ button {
     display: flex;
 }
 
+.clickable {
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
 
 
 
