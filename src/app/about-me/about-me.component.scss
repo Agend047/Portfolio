@@ -5,28 +5,39 @@ article {
     padding-left: 100px;
 
     .left_txt {
-        max-width: 400px;
-
+        width: 40vw;
+        max-width: 600px;
 
         figure {
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
+            margin-left: 0;
+            margin-right: 0;
         }
     }
 
     .right_pic {
         display: flex;
         align-items: center;
-        justify-content: center;
+        // justify-content: center;
+        width: 50%;
 
         img {
             height: 350px;
-            border-radius: 50px; //Should be round!
+            border-radius: 200px;
             border-style: solid;
             border-color: var(--sec-color);
             border-width: 5px;
         }
+    }
+
+    .vector_am {
+        height: 4px;
+        // width: 18vw;
+        width: 100%;
+
+        background-color: var(--sec-color);
     }
 
 }
