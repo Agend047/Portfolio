@@ -2,3 +2,69 @@
     font-weight: 700;
     font-size: 32px;
 }
+
+.titleDiv {
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    p {
+        margin: 12px
+    }
+
+    .placeholder {
+        width: 100%;
+    }
+
+    .vector_pf {
+        height: 4px;
+        background-color: var(--main-color);
+    }
+
+    .vector_short_left {
+        width: 12vw;
+    }
+
+    .vector_long_right {
+        justify-content: right;
+        width: 100%;
+    }
+
+}
+
+.subtext {
+    justify-content: center;
+    text-align: center;
+}
+
+.portfolioProject {
+    padding-top: 100px;
+
+    article {
+        flex-direction: column;
+
+        .project_title {
+            color: var(--main-color);
+            font-size: 32px;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .project_subtitle {
+            color: var(--sec-color);
+            font-size: 23px;
+            font-weight: 400;
+            margin-bottom: 8px;
+        }
+
+        .descr_txt {}
+
+
+        .button_div {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+}

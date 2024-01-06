@@ -30,15 +30,30 @@ a {
 
 button {
     color: white;
+    width: 200px;
+    height: 58px;
+    border-radius: 15px;
+    font-size: larger;
 
+    &:hover {
+        cursor: pointer;
+    }
 }
 
-.main_btn {
+.prim_btn {
     background-color: var(--main-color);
+    border-color: var(--main-color);
 }
 
 .sec_btn {
     background-color: var(--sec-color);
+    border-color: var(--sec-color);
+}
+
+.git_btn {
+    background-color: var(--bg-color);
+    border-color: var(--sec-color);
+
 }
 
 .tert_btn {
