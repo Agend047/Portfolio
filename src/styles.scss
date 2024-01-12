@@ -12,6 +12,7 @@ body {
     background-color: var(--bg-color);
 }
 
+// Basic things
 
 a {
     color: white;
@@ -24,9 +25,40 @@ a {
     margin: 24px;
 }
 
+.subtitle {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.d_flex {
+    display: flex;
+}
+
+.a_items_c {
+    align-items: center;
+}
+
+.clickable {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.vector {
+    height: 4px;
+    background-color: var(--main-color);
+}
+
+.unique_ornamentation {
+    z-index: -1;
+}
+
 .main_col {
     color: var(--main-color);
 }
+
+
+//  Buttons
 
 button {
     color: white;
@@ -64,23 +96,6 @@ button {
     border-width: 4px;
 }
 
-.d_flex {
-    display: flex;
-}
-
-.clickable {
-
-    &:hover {
-        cursor: pointer;
-    }
-}
-
-
-
-
-.unique_ornamentation {
-    z-index: -1;
-}
 
 /* poppins-100 - latin */
 @font-face {

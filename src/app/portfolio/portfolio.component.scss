@@ -17,11 +17,6 @@
         width: 100%;
     }
 
-    .vector_pf {
-        height: 4px;
-        background-color: var(--main-color);
-    }
-
     .vector_short_left {
         width: 12vw;
     }
@@ -72,6 +67,10 @@
 
     img {
         width: 30vw;
+        max-width: 300px;
+        min-width: 200px;
+
+        height: fit-content;
         border-radius: 50px;
     }
 
