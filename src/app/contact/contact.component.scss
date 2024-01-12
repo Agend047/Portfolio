@@ -1,0 +1,60 @@
+.head_div {
+
+    .vector_contact {
+        width: 76px; //adds with margin, so this position will fit with the text below
+    }
+}
+
+
+article {
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .mail_form {
+
+        .form_element {
+
+            color: var(--txt-color);
+            padding: 10px;
+            background-color: var(--bg-color);
+            border-color: var(--main-color);
+            border-radius: 10px;
+            width: 100%;
+        }
+
+
+        .checkbox_part {
+
+            input {
+                //Hiding normal checkbox
+                width: 0;
+                height: 0;
+                opacity: 0;
+            }
+
+            .form_checkbox {
+                //creating custom checkbox
+                min-width: 12px;
+                min-height: 12px;
+
+                background-color: var(--bg-color);
+                border-color: var(--sec-color);
+                border-style: solid;
+                border-radius: 4px;
+                border-width: 2px;
+
+                &:hover {
+                    box-shadow: 0px 0px 4px 2px var(--main-color);
+                    background-color: var(--main-color);
+
+                }
+            }
+
+
+            .pp_link {
+                color: var(--main-color);
+            }
+        }
+    }
+}

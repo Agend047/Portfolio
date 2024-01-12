@@ -2,6 +2,7 @@
     --bg-color: #141D2F;
     --main-color: #4B47FF;
     --sec-color: #00BEE8;
+    --txt-color: white;
 }
 
 /* You can add global styles to this file, and also import other style files */
@@ -28,6 +29,10 @@ a {
 .subtitle {
     font-weight: 700;
     font-size: 32px;
+}
+
+.d_none {
+    display: none;
 }
 
 .d_flex {
