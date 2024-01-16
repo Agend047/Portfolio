@@ -11,6 +11,7 @@ body {
     font-family: 'Poppins';
     color: white;
     background-color: var(--bg-color);
+    transition-duration: 0.4s;
 }
 
 // Basic things
@@ -76,6 +77,7 @@ button {
     border-radius: 15px;
     font-size: larger;
 
+
     &:hover {
         cursor: pointer;
     }
@@ -117,6 +119,12 @@ button {
     border-radius: 15px;
     border-style: solid;
     border-width: 4px;
+}
+
+.btn_growth {
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
 }
 
 
