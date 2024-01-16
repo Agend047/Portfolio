@@ -18,6 +18,10 @@ body {
 a {
     color: white;
     text-decoration: none;
+
+    &:hover {
+        color: var(--sec-color);
+    }
 }
 
 .title {
@@ -80,16 +84,30 @@ button {
 .prim_btn {
     background-color: var(--main-color);
     border-color: var(--main-color);
+
+    &:hover {
+        background-color: var(--sec-color);
+        border-color: var(--sec-color);
+    }
 }
 
 .sec_btn {
     background-color: var(--sec-color);
     border-color: var(--sec-color);
+
+    &:hover {
+        background-color: var(--main-color);
+        border-color: var(--main-color);
+    }
 }
 
 .git_btn {
     background-color: var(--bg-color);
     border-color: var(--sec-color);
+
+    &:hover {
+        background-color: var(--sec-color);
+    }
 
 }
 
