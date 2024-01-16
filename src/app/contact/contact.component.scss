@@ -21,6 +21,10 @@ article {
             border-color: var(--main-color);
             border-radius: 10px;
             width: 100%;
+
+            &:hover {
+                border-color: var(--sec-color);
+            }
         }
 
 
