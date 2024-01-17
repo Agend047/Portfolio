@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SharedService } from '../app.shared_services'
 
 @Component({
   selector: 'app-portfolio',
@@ -9,4 +10,11 @@ import { Component } from '@angular/core';
 })
 export class PortfolioComponent {
 
+  constructor(private sharedService: SharedService) { }
+
+
+  // Helper function, to open link
+  goToLink(url: string) {
+    this.sharedService.openLink(url);
+  }
 }

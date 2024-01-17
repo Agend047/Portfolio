@@ -21,4 +21,14 @@ export class SharedService {
     goToArea(target: string) {
         this.scroller.scrollToAnchor(target);
     }
+
+    /**
+     * Will open URL
+     * @param url URL of Website
+     */
+    openLink(url: string) {
+        window.open(url, "_blank")
+    }
+
+
 }

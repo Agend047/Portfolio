@@ -16,9 +16,9 @@ export class MainComponent {
 
   emailstring = "mailto:schneiderniklas@gmx.de?Subject=Hello&body=links:  %0D http://link1.com  %0D http://link1.com";
 
-  //Helper function, to open specific link
+  //Helper function, to open link
   goToLink(url: string) {
-    window.open(url, "_blank")
+    this.sharedService.openLink(url);
   }
 
   // Helper function, to scroll to target Area

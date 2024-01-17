@@ -21,8 +21,8 @@ export class FooterComponent {
     this.sharedService.goToArea(target);
   }
 
-
+  // Helper function, to open link
   goToLink(url: string) {
-    window.open(url, "_blank")
+    this.sharedService.openLink(url);
   }
 }
