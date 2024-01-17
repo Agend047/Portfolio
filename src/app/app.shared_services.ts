@@ -18,7 +18,7 @@ export class SharedService {
      * Will scroll to HTML area wich id == target
      * @param target ID of HTML Area, the user has to scroll to.
      */
-    goTo(target: string) {
+    goToArea(target: string) {
         this.scroller.scrollToAnchor(target);
     }
 }

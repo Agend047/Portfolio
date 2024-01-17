@@ -1,4 +1,4 @@
-<main>
+<main id="Main">
     <div class="picDiv">
         <img class="main_pic" src="../../assets/img/Main_picV2.png" alt="">
         <!-- <img class="back_pic" src="../../assets/img/Photo shadows.png" alt=""> -->
@@ -14,14 +14,14 @@
 </main>
 
 <div class="divider_div">
-    <span class="left_links">
+    <span class="left_links d_flex">
         <img src="../../assets/img/Vector_1.png" alt="">
         <img class="clickable pic_growth" (click)="goToLink('https://github.com/Agend047')"
             src="../../assets/img/Github.png" alt="">
-        <img class="clickable pic_growth" src="../../assets/img/Email.png" alt="">
+        <img class="clickable pic_growth" src="../../assets/img/Email.png" (click)="scrollTo('Contact')" alt="">
         <img class="clickable pic_growth" (click)="goToLink('https://www.linkedin.com/in/niklas-schneider-635789257/')"
             src="../../assets/img/Linkedin.png" alt="">
-        <p>schneiderniklas&#64;gmx.de</p>
+        <p class="clickable" (click)="scrollTo('Contact')">schneiderniklas&#64;gmx.de</p>
     </span>
     <span class="right_info">
         <p class="side_txt">Scroll down

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-
+import { SharedService } from '../app.shared_services'
 
 @Component({
   selector: 'app-footer',
@@ -13,6 +13,14 @@ export class FooterComponent {
 
 
   emailstring = "mailto:schneiderniklas@gmx.de?Subject=Hello&body=links:  %0D http://link1.com  %0D http://link1.com";
+
+  constructor(private sharedService: SharedService,) { }
+
+  // Helper function, to scroll to target Area
+  scrollTo(target: string) {
+    this.sharedService.goToArea(target);
+  }
+
 
   goToLink(url: string) {
     window.open(url, "_blank")
