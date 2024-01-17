@@ -77,9 +77,12 @@ button {
     border-radius: 15px;
     font-size: larger;
 
+    transition-duration: 0.6s;
+    transition-property: background-color, border-color, height, width, transform;
 
     &:hover {
         cursor: pointer;
+
     }
 }
 
@@ -109,6 +112,7 @@ button {
 
     &:hover {
         background-color: var(--sec-color);
+        border-color: var(--sec-color);
     }
 
 }
