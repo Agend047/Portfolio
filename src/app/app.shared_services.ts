@@ -19,7 +19,11 @@ export class SharedService {
      * @param target ID of HTML Area, the user has to scroll to.
      */
     goToArea(target: string) {
-        this.scroller.scrollToAnchor(target);
+        document.getElementById(target).scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest"
+        });
     }
 
     /**
