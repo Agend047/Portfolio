@@ -10,22 +10,28 @@
             <span class="main_txt">
                 <p class="title">Niklas Schneider</p>
                 <p class="main_col subtitle">FRONTEND DEVELOPER</p>
+                <button class="sec_btn" (click)="scrollTo('Contact')">
+                    Lets talk!
+                </button>
             </span>
         </div>
     </main>
 
     <div class="divider_div">
-        <span class="left_links d_flex">
+        <span class="left_links d_flex a_items_c">
             <img src="../../assets/img/Vector_1.png" alt="">
-            <img class="clickable pic_growth" (click)="goToLink('https://github.com/Agend047')"
-                src="../../assets/img/Github.png" alt="">
-            <img class="clickable pic_growth" src="../../assets/img/Email.png" (click)="scrollTo('Contact')" alt="">
-            <img class="clickable pic_growth"
-                (click)="goToLink('https://www.linkedin.com/in/niklas-schneider-635789257/')"
-                src="../../assets/img/Linkedin.png" alt="">
-            <p class="clickable" (click)="scrollTo('Contact')">schneiderniklas&#64;gmx.de</p>
+            <span class="pic_links d_flex a_items_c">
+                <img class="clickable pic_growth" (click)="goToLink('https://github.com/Agend047')"
+                    src="../../assets/img/Github.png" alt="">
+                <img class="clickable pic_growth" src="../../assets/img/Email.png" (click)="scrollTo('Contact')" alt="">
+                <img class="clickable pic_growth"
+                    (click)="goToLink('https://www.linkedin.com/in/niklas-schneider-635789257/')"
+                    src="../../assets/img/Linkedin.png" alt="">
+                <p class="clickable mobile_hide" (click)="scrollTo('Contact')">schneiderniklas&#64;gmx.de</p>
+            </span>
         </span>
-        <span class="right_info">
+
+        <span class="right_info mobile_hide">
             <p class="side_txt">Scroll down
                 <!-- <img src="../../assets/img/Arrow_right.png" alt=""> -->
             </p>

@@ -72,6 +72,14 @@ a {
 }
 
 
+.mobile_hide {
+
+    @media (max-width: 960px) {
+        display: none;
+    }
+}
+
+
 //  Buttons
 
 button {
