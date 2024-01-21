@@ -5,13 +5,20 @@ article {
     justify-content: space-between;
 
     @media (max-width: 960px) {
+        padding: 0;
+        // padding-left: 50px;
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
     .left_skillPics {
         display: flex;
         flex-wrap: wrap;
         max-width: 50vw;
+
+        @media (max-width: 960px) {
+            max-width: 100%;
+        }
 
         span {
             display: flex;
@@ -31,18 +38,44 @@ article {
 
     .right_part {
         align-items: center;
+        justify-content: center;
+
+        @media (max-width: 960px) {
+            width: 100%;
+        }
 
         .right_txt {
             flex-direction: column;
-            align-items: center;
+            align-items: end;
+            text-align: center;
 
+            @media (max-width: 960px) {
+                text-align: right;
+            }
+
+            .expl_txt {
+                padding-right: 50px;
+                max-width: 400px;
+
+                @media (max-width: 960px) {
+                    padding-left: 16px;
+                }
+
+            }
         }
 
         .vector_ms {
             height: 4px;
             width: 10vw;
+            max-width: 50px;
             background-color: var(--main-color);
-            margin-bottom: 96px;
+
+            @media (max-width: 960px) {}
         }
+    }
+
+    .btn_div {
+        width: 100%;
+        justify-content: center;
     }
 }

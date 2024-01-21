@@ -4,6 +4,11 @@ article {
 
     padding-left: 100px;
 
+    @media (max-width: 960px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .left_txt {
         width: 40vw;
         max-width: 600px;
@@ -11,8 +16,6 @@ article {
         @media (max-width: 960px) {
             width: 100%;
             max-width: 100%;
-
-            padding-right: 100px;
         }
 
         figure {

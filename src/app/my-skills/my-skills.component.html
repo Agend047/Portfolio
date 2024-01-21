@@ -1,4 +1,9 @@
 <article class="d_flex component">
+
+    <span class="a_items_c btn_div mobile_show d_flex">
+        <button class="sec_btn btn_growth" (click)="scrollTo('Contact')">Get in touch </button>
+    </span>
+
     <section class="left_skillPics">
         <span>
             <svg width="56" height="60" viewBox="0 0 56 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,13 +117,21 @@
     </section>
     <section class="right_part d_flex">
         <section class="right_txt d_flex">
-            <p class="title">My skills</p>
-            <p> I have grown my frontend development skills <br> that have allowed me to create various projects</p>
 
-            <button class="sec_btn btn_growth" (click)="scrollTo('Contact')">Get in touch</button>
+            <span class="right_title d_flex a_items_c">
+                <p class="title">My skills</p>
+                <div class="vector_ms"></div>
+            </span>
+
+
+            <p class="expl_txt"> I have grown my frontend development skills, that have allowed me to create
+                various projects</p>
+
+            <span class="d_flex a_items_c mobile_hide btn_div">
+                <button class="sec_btn btn_growth" (click)="scrollTo('Contact')">Get in touch</button>
+            </span>
         </section>
-        <div class="vector_ms"></div>
-    </section>
 
+    </section>
 
 </article>
