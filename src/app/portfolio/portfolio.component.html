@@ -11,7 +11,7 @@
     </span>
 
 
-    <div class="portfolioProject d_flex">
+    <div class="portfolioProject media_flex_col d_flex">
         <article class="d_flex">
             <p class="project_title">Join</p>
             <p class="project_subtitle">JavaScript | HTML | CSS | Firebase</p>
@@ -20,13 +20,14 @@
                 functions, assign users and categories</p>
             <span class="button_div">
                 <button class="prim_btn">Live test</button>
-                <button class="git_btn">Github</button>
+                <button class="git_btn" (click)="goToLink('https://github.com/Agend047/Join-648')">Github</button>
             </span>
         </article>
         <img src="../../assets/img/Join_v3.jpg" alt="">
     </div>
 
-    <div class="portfolioProject d_flex">
+
+    <div class="portfolioProject media_flex_col_rev d_flex">
         <img src="../../assets/img/MotO_pic.jpg" alt="">
         <article class="d_flex">
             <p class="project_title">March of the Orcs</p>
@@ -36,13 +37,14 @@
             </p>
             <span class="button_div">
                 <button class="prim_btn">Live test</button>
-                <button class="git_btn">Github</button>
+                <button class="git_btn"
+                    (click)="goToLink('https://github.com/Agend047/March-of-the-Orcs')">Github</button>
             </span>
         </article>
     </div>
 
 
-    <div class="portfolioProject d_flex">
+    <div class="portfolioProject media_flex_col d_flex">
         <article class="d_flex">
             <p class="project_title">Pokédex</p>
             <p class="project_subtitle">Javascript | HTML | CSS | Api</p>
@@ -50,7 +52,7 @@
             </p>
             <span class="button_div">
                 <button class="prim_btn">Live test</button>
-                <button class="git_btn">Github</button>
+                <button class="git_btn" (click)="goToLink('https://github.com/Agend047/API-Pokedex')">Github</button>
             </span>
         </article>
         <img src="../../assets/img/Pokedex_pic.jpg" alt="">
