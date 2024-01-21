@@ -9,41 +9,29 @@
             <p class="subtitle">Got a problem to solve?</p>
             <p>Contact me through this form, I am interested in hearing <br>
                 from you, knowing your ideas and contributing to your <br> projects with my work.</p>
-            <p>Need a Frontend developer? <strong> Contact me!</strong></p>
+            <p>Need a Frontend developer? Send a mail to: <strong> schneiderniklas&#64;gmx.de</strong></p>
         </span>
 
-        <span class="mail_form">
-            <form action="#" method="POST">
+        <!-- THIS PART DOESNT WORK ON DEVELOPER ACADEMY SERVERS -->
+        <!-- <span class="mail_form">
+            <form action="../send_mail.php" method="post" #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
                 <input class="form_element" name="name" placeholder="Your name" required>
-                <br><br>
                 <input class="contact_formular form_element" name="sender_mail" placeholder="Your e-mail" required>
-                <br><br>
+
                 <textarea class="contact_formular form_element" name="message" placeholder="Your message" rows="10"
-                    cols="50" required style="resize: none;"></textarea>
-                <br><br>
-                <span class="checkbox_part d_flex a_items_c clickable
-                ">
+                    cols="50" required style="resize: none;">
+                </textarea>
 
-
-                    <!-- <input type="checkbox" id="mail_checkbox" name="checkbox" value="1">
-                    <span class="checkmark form_checkbox clickable"></span> -->
-
-                    <!-- <app-custom-checkbox [(ngModel)]="inputOne">
-                        Checkbox 1
-                    </app-custom-checkbox>
-                   -->
-
-                    <mat-checkbox class="example-margin">Check me!</mat-checkbox>
-
-                    <p>I've read the <a class="pp_link" href="#">privacy police</a> and agree to the processing of my
-                        data
-                        as outlined.</p> <br>
-
+                <span class="checkbox_part d_flex a_items_c clickable">
+                    <mat-checkbox class="example-margin" [checked]="readPolicy">
+                        I've read the <a class="pp_link" href="#">privacy police</a> and agree to the processing of my
+                        data as outlined.
+                    </mat-checkbox>
                 </span>
 
 
-                <button type="submit">Send message :)</button>
+                <button class="sec_btn" [disabled]="!f.valid">Send message :)</button>
             </form>
-        </span>
+        </span> -->
     </section>
 </article>
