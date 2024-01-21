@@ -1,0 +1,42 @@
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+
+    // Hide the browser's default checkbox
+    .checkbox-input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    // Create a custom checkbox
+
+    .checkbox-border {
+        min-width: 12px;
+        min-height: 12px;
+
+        background-color: var(--bg-color);
+        border-color: var(--sec-color);
+        border-style: solid;
+        border-radius: 4px;
+        border-width: 2px;
+
+        &:hover {
+            box-shadow: 0px 0px 4px 2px var(--main-color);
+            background-color: var(--main-color);
+
+        }
+
+        .checkbox-filling {
+            width: 12px;
+            height: 12px;
+
+            border-radius: 1px;
+            background: var();
+        }
+    }
+}
